@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Blog</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>My Book Blog</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="favorites.html">Favorites</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="book-list">
+        <h2>Book Collection</h2>
+        <ul id="books">
+          <!-- Books will be dynamically added here -->
+        </ul>
+      </section>
+
+      <section id="add-book">
+        <h2>Add a New Book</h2>
+        <form id="book-form">
+          <label for="title">Title:</label>
+          <input type="text" id="title" required />
+
+          <label for="author">Author:</label>
+          <input type="text" id="author" required />
+
+          <label for="genre">Genre:</label>
+          <input type="text" id="genre" required />
+
+          <button type="submit">Add Book</button>
+        </form>
+      </section>
+
+      <section id="chatbot">
+        <h2>Ask the AI Chatbot</h2>
+        <div id="chatbot-box">
+          <p>Chatbot coming soon...</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 My Book Blog | All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
